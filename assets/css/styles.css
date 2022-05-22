@@ -384,19 +384,19 @@ img{
   z-index: var(--z-back);
 }
 .skills__html{
-  width:77%;
+  width:74%;
 }
 .skills__css{
-  width: 70%;
+  width: 76%;
 }
 .skills__cs{
   width: 65%;  
 }
 .skills__js{
-  width: 17%;
+  width: 37%;
 }
 .skills__ux{
-  width: 75%;
+  width: 88%;
 }
 .skills__img{
   border-radius: .5rem;
