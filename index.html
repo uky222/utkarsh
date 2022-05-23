@@ -51,7 +51,7 @@
     <body>
         
 	<div id="progressbar"></div> 
-	<div id="scrollPath"></div>
+
 	    
         <!--===== HEADER =====-->
         <header class="l-header">
@@ -253,10 +253,10 @@
 		
 	<script type="text/javascript">
 		Let progress = document.getELementById('progressbar');
-		Let totalHeight = document.body.scrollHeight - window.innerHeight;
+		Let totalWeight = document.body.scrollWidth - window.innerWidth;
 		window.onscroll = function(){
-						Let progressHeight = (window.pageYOffset / totalHeight) * 100;
-						progress.style.height = progressHeight + "%";
+						Let progressWidthWidth = (window.pageYOffset / totalWidth) * 100;
+						progress.style.Width = progressWidth + "%";
 		                            }
 	</script>	
     </body>
