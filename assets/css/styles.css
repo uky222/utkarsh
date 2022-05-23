@@ -190,15 +190,6 @@ img{
 }
 
 
-#progress-bar{
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: linear0gradient(to right, #ff5f6d, #ffc371);
-  width: 0%;
-  z-index:100;
-}
 
 /*===== LAYOUT =====*/
 .bd-grid{
@@ -279,6 +270,17 @@ img{
   left: 0;
   top: 2rem;
   background-color: var(--first-color);
+}
+
+
+.progress-bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 8px;
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  width: 20%;
+  z-index:100;
 }
 
 /*=== Show menu ===*/
