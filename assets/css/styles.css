@@ -33,15 +33,6 @@ nav ul {
   }
 }
 
-.progress-bar{
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: linear0gradient(to right, #ff5f6d, #ffc371);
-  width: 0%;
-  z-index:100;
-}
 
 .animation-area {
   background: linear-gradient(to left, #141313,#474444);
@@ -196,6 +187,17 @@ img{
 .section{
   padding-top: 3rem;
   padding-bottom: 2rem;
+}
+
+
+#progress-bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: linear0gradient(to right, #ff5f6d, #ffc371);
+  width: 0%;
+  z-index:100;
 }
 
 /*===== LAYOUT =====*/
