@@ -250,6 +250,15 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+		
+	<script type="text/javascript">
+		Let progress = document.getELementById('progressbar');
+		Let totalHeight = document.body.scrollHeight - window.innerHeight;
+		window.onscroll = function(){
+			Let progressHeight = (window.pageYOffset / totalHeight) * 100;
+			progress.style.height = progressHeight + "%";
+		}
+	</script>	
     </body>
 
 </html>
