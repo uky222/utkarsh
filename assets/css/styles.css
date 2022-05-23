@@ -38,7 +38,7 @@ nav ul {
   position: fixed;
   top: 0;
   right: 0;
-  width: 200px;
+  width: 20px;
   height: 100%;
   background: rbga(255,255,255,0.05);  
 }
@@ -46,7 +46,7 @@ nav ul {
   position: fixed;
   top: 0;
   right: 0;
-  width: 200px;
+  width: 20px;
   background: linear-gradient(to top, #ff5f6d, #ffc371);
   animation: animate 5s linear infinite;
 }
@@ -54,11 +54,11 @@ nav ul {
 {
   0%,100%
   {
-    filter:hue-rotate(0deg);
+    filter: hue-rotate(0deg);
   }
   50%
   {
-    filter:hue-rotate(360deg);
+    filter: hue-rotate(360deg);
   }
 }
 #progressbar:before
