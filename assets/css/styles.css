@@ -33,6 +33,15 @@ nav ul {
   }
 }
 
+
+::-webkit-scrollbar
+{
+  
+  background: linear-gradient(transparent, #1265b3);
+  border-radius: 5px;
+}
+
+
 .animation-area {
   background: linear-gradient(to left, #141313,#474444);
   width: 100%;
