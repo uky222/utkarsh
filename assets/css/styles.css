@@ -34,7 +34,7 @@ nav ul {
 }
 
 
-#progressbar{
+#progress-bar{
   position: fixed;
   top: 0;
   left: 0;
@@ -54,7 +54,7 @@ nav ul {
     filter: hue-rotate(360deg);
   }
 }
-#progressbar:before
+#progress-bar:before
 {
   content: '';
   position: absolute;
@@ -65,7 +65,7 @@ nav ul {
   background: linear-gradient(to top, #ff5f6d, #ffc371);
   filter: blur(10px);
 }  
-#progressbar:after
+#progress-bar:after
 {
   content: '';
   position: absolute;
