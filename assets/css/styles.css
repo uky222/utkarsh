@@ -1,3 +1,21 @@
+::-webkit-scrollbar
+{
+  width:0;
+}  
+
+/*===== Scroll Bar =====*/
+#progressbar
+{
+  position: fixed;
+  top: 0;
+  right:0;
+  width: 15px;
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(to top, #fcb045, #fd1d1d, #833ab4
+}  
+
+
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Open%20Sans:wght@400;600;700&amp;display=swap");
 /*===== VARIABLES CSS =====*/
@@ -16,6 +34,7 @@ nav ul {
   flex: 1;
   text-align: right;
 }
+
 /*===== Fuente y tipografia =====*/
 :root{
   --body-font: 'Open Sans', sans-serif;
