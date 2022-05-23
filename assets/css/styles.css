@@ -38,7 +38,7 @@ nav ul {
   position: fixed;
   top: 0;
   left: 0;
-  height: 308px;
+  height: 48px;
   background: linear-gradient(to right, #ff5f6d, #ffc371);
   width: 20%;
   z-index: 100;
