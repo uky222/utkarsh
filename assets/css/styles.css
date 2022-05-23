@@ -33,7 +33,10 @@ nav ul {
   }
 }
 
-
+::-webkit-scrollbar
+{
+  width: 0;
+}
 #scrollPath{
   position: fixed;
   top: 0;
