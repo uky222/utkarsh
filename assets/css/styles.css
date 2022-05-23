@@ -33,17 +33,6 @@ nav ul {
   }
 }
 
-
-#progressbar{
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 85%;
-  width: 100%
-  background: linear-gradient(to right, #ff5f6d, #ffc371);
-  z-index: 70;
-}
-
 .animation-area {
   background: linear-gradient(to left, #141313,#474444);
   width: 100%;
