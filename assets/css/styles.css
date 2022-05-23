@@ -34,6 +34,17 @@ nav ul {
 }
 
 
+#progress-bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 8px;
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  width: 20%;
+  z-index: 100;
+}
+
+
 .animation-area {
   background: linear-gradient(to left, #141313,#474444);
   width: 100%;
@@ -272,16 +283,6 @@ img{
   background-color: var(--first-color);
 }
 
-
-#progress-bar{
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 8px;
-  background: linear-gradient(to right, #ff5f6d, #ffc371);
-  width: 20%;
-  z-index: 100;
-}
 
 /*=== Show menu ===*/
 .show{
