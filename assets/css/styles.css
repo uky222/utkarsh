@@ -274,13 +274,13 @@ img{
 
 
 .progress-bar{
-  position: fixed;
+  position: top;
   top: 0;
   left: 0;
   height: 8px;
   background: linear-gradient(to right, #ff5f6d, #ffc371);
   width: 20%;
-  z-index:100;
+  z-index: 100;
 }
 
 /*=== Show menu ===*/
