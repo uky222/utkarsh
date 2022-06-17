@@ -19,7 +19,7 @@ nav ul {
 /*===== Fuente y tipografia =====*/
 :root{
   --body-font: 'Open Sans', sans-serif;
-  --big-font-size: 2rem;
+  --big-font-size: 1.8rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 1rem;
 }
