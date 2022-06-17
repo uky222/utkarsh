@@ -1,247 +1,427 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-    
+
 
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!-- =====BOX ICONS===== -->
-        <link href='assets/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!--==Stylesheet======================-->
+    <link rel="stylesheet" type="text/css" href="css2/style.css" />
 
-        <title>Utkarsh's Portfolio</title>
-	<link rel="icon" type="image/x-icon" href="/assets/img/letter-u.ico">
-	
-	
-		<!-- Start of Async Drift Code -->
-	<script>
-	"use strict";
+    <!--==Lightbox.css====================-->
+    <link rel="stylesheet" href="css2/lightbox.min.css">
 
-	!function() {
-	  var t = window.driftt = window.drift = window.driftt || [];
-	  if (!t.init) {
-	    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-	    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-	    t.factory = function(e) {
-	      return function() {
-		var n = Array.prototype.slice.call(arguments);
-		return n.unshift(e), t.push(n), t;
-	      };
-	    }, t.methods.forEach(function(e) {
-	      t[e] = t.factory(e);
-	    }), t.load = function(t) {
-	      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-	      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-	      var i = document.getElementsByTagName("script")[0];
-	      i.parentNode.insertBefore(o, i);
-	    };
-	  }
-	}();
-	drift.SNIPPET_VERSION = '0.3.1';
-	drift.load('x65rnyvv7f2k');
-	</script>
-	<!-- End of Async Drift Code -->
-	
-	<!-- Google Search Console-->
-	<meta name="google-site-verification" content="yfNZ9GH2xnaDkRGSIObSafZYX6An691CUcp856xcPg0" />
-	<meta name="google-site-verification" content="fbk85KS2JcVbXM2P11HsZJ6Du0tq8WM5DmO5pjWL4oM" />
-	
-    </head>
-    <body>
+    <!--==Favicon=========================-->
+    <link rel="shortcut icon" href="images2/fav-icon.png" />
 
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
+    <!--==Poppins-Font-Family=============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='assets/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Utkarsh's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/letter-u.ico">
+
+
+    <!-- Start of Async Drift Code -->
+    <script>
+        "use strict";
+
+        !function () {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function (e) {
+                        return function () {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function (e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function (t) {
+                        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
+                    };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('x65rnyvv7f2k');
+    </script>
+    <!-- End of Async Drift Code -->
+
+    <!-- Google Search Console-->
+    <meta name="google-site-verification" content="yfNZ9GH2xnaDkRGSIObSafZYX6An691CUcp856xcPg0" />
+    <meta name="google-site-verification" content="fbk85KS2JcVbXM2P11HsZJ6Du0tq8WM5DmO5pjWL4oM" />
+
+</head>
+
+<body>
+
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Utkคrsh</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="https://drive.google.com/uc?id=1-E3zLwknn6mZzz1O6UioEVoztAawO4UT"
+                            class="nav__link">Install App</a></li>
+                </ul>
+
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--==================== HOME =========================-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Utkarsh</span><br>Programmer,
+                    Student</h1>
+                <h1 class="home_Animation">~ᴾʳᵒᵍʳᵃᵐᵐᵉʳ😎</h1>
+            </div>
+
+            <div class="home__social">
+                <a href="https://mailto:Utkarshyadav8726@gmail.com" target="_blank" class="home__social-icon"><i
+                        class='bx bx-mail-send'></i></a>
+                <a href="https://discordapp.com/users/924851347688398878" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-discord'></i></a>
+                <a href="https://github.com/uky222" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://snapchat.com/add/utkarsh-dnd" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-snapchat'></i></a>
+                <a href="https://youtube.com/c/BatchStudy" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-youtube'></i></a>
+                <a href="https://open.spotify.com/user/315j7sm42plqipjfsry6lbrj7bne" target="_blank"
+                    class="home__social-icon"><i class='bx bxl-spotify'></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="assets/img/perfil.jpg" alt="">
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.jpg" alt="">
+                </div>
+
                 <div>
-                    <a href="#" class="nav__logo">Utkคrsh</a>
+                    <h2 class="about__subtitle">Hello I'am Utkarsh</h2>
+                    <p class="about__text">
+                        𝓒𝓸𝓾𝓷𝓽𝓻𝔂 : 𝓘𝓷𝓭𝓲𝓪 (🇮🇳) <br>
+                        » ᴬᵍᵉ ᵃⁿᵈ ᴳᵉⁿᵈᵉʳ : ¹⁷, ᴹᵃˡᵉ <br>
+                        » ᴾʳᵒᵍʳᵃᵐᵐᵉʳ,ᴰᵉˢⁱᵍⁿᵉʳ, ᴮᵒᵗ ᴰᵉᵛᵉˡᵒᵖᵉʳ. <br>
+                        » ᴹᵒʳᵉ ᵃᵇᵒᵘᵗ ᵐᵉ : ᴵ'ᵐ ᵃ ᴾᵃʳᵗ⁻ᵗⁱᵐᵉ ᴾʳᵒᵍʳᵃᵐᵐᵉʳ ᵃⁿᵈ ᵃ ˢᵗᵘᵈᵉⁿᵗ.ᴵᵐ ˢᵗᵘᵈⁱⁿᵍ ᶠᵒʳ ᴶᵉᵉ ᵃⁿᵈ ᴵ ˡᵒᵛᵉ ᶜᵒᵈⁱⁿᵍ
+                        ˢᵖᵉᶜⁱᶠⁱᶜᵃˡˡʸ ⁱⁿ ᴾʸᵗʰᵒⁿ, ᴵ ʰᵃᵛᵉ ᵃˡˢᵒ ʷᵒʳᵏᵉᵈ ᵒⁿ ᵐᵃⁿʸ ᵖʳᵒʲᵉᶜᵗˢ ˡⁱᵏᵉ ᴳᵃᵐᵉ ᴰᵉᵛᵉˡᵒᵖᵐᵉⁿᵗ , ᴮᵒᵗ
+                        ᴰᵉᵛᵉˡᵒᵖᵐᵉⁿᵗ,
+                        ᵂᵉᵇ ᴰᵉᵛᵉˡᵒᵖᵐᵉⁿᵗ. ᴬˡˢᵒ , ᴵ ʷᵒᵘˡᵈ ˡⁱᵏᵉ ᵗᵒ ᵍᵉᵗ ⁱⁿᵛᵒˡᵛᵉᵈ ⁱⁿ ᵃⁿʸ ᵏⁱⁿᵈ ᵒᶠ ᵖʳᵒʲᵉᶜᵗ ᵗʰᵃᵗ ⁱ ᶜᵒᵘˡᵈ ᵍᵉᵗ
+                        ⁱⁿᵗᵒ ᵐʸ ˢᵏⁱˡˡ ˢᵉᵗˢ.
+
                 </div>
+        </section>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-			<li class="nav__item"><a href="https://drive.google.com/uc?id=1-E3zLwknn6mZzz1O6UioEVoztAawO4UT" class="nav__link">Install App</a></li>
-                    </ul>
-                   
-                </div>
-            
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Utkarsh</span><br>Programmer, Student</h1>
-                    <h1 class="home_Animation">~ᴾʳᵒᵍʳᵃᵐᵐᵉʳ😎</h1>
-                </div>
 
-                <div class="home__social">                    
-                <a href="https://mailto:Utkarshyadav8726@gmail.com" target="_blank" class="home__social-icon"><i class='bx bx-mail-send' ></i></a>
-                <a href="https://discordapp.com/users/924851347688398878" target="_blank" class="home__social-icon"><i class='bx bxl-discord' ></i></a>
-                <a href="https://github.com/uky222" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                <a href="https://snapchat.com/add/utkarsh-dnd" target="_blank" class="home__social-icon"><i class='bx bxl-snapchat' ></i></a>
-                <a href="https://youtube.com/c/BatchStudy" target="_blank" class="home__social-icon"><i class='bx bxl-youtube' ></i></a>
-		<a href="https://open.spotify.com/user/315j7sm42plqipjfsry6lbrj7bne" target="_blank" class="home__social-icon"><i class='bx bxl-spotify' ></i></a>                 
-                </div>
 
-                <div class="home__img">    
-                    <img src="assets/img/perfil.jpg" alt="">
-                </div>
-            </section>
 
-		
-		
-		
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">Hello I'am Utkarsh</h2>
-                        <p class="about__text">  
-                            𝓒𝓸𝓾𝓷𝓽𝓻𝔂 : 𝓘𝓷𝓭𝓲𝓪 (🇮🇳) <br>                  
-                            » ᴬᵍᵉ ᵃⁿᵈ ᴳᵉⁿᵈᵉʳ : ¹⁷, ᴹᵃˡᵉ <br>
-                            » ᴾʳᵒᵍʳᵃᵐᵐᵉʳ,ᴰᵉˢⁱᵍⁿᵉʳ, ᴮᵒᵗ ᴰᵉᵛᵉˡᵒᵖᵉʳ. <br>
-                            » ᴹᵒʳᵉ ᵃᵇᵒᵘᵗ ᵐᵉ : ᴵ'ᵐ ᵃ ᴾᵃʳᵗ⁻ᵗⁱᵐᵉ ᴾʳᵒᵍʳᵃᵐᵐᵉʳ ᵃⁿᵈ ᵃ ˢᵗᵘᵈᵉⁿᵗ.ᴵᵐ ˢᵗᵘᵈⁱⁿᵍ ᶠᵒʳ ᴶᵉᵉ ᵃⁿᵈ ᴵ ˡᵒᵛᵉ ᶜᵒᵈⁱⁿᵍ ˢᵖᵉᶜⁱᶠⁱᶜᵃˡˡʸ ⁱⁿ ᴾʸᵗʰᵒⁿ, ᴵ ʰᵃᵛᵉ ᵃˡˢᵒ ʷᵒʳᵏᵉᵈ ᵒⁿ ᵐᵃⁿʸ ᵖʳᵒʲᵉᶜᵗˢ ˡⁱᵏᵉ ᴳᵃᵐᵉ ᴰᵉᵛᵉˡᵒᵖᵐᵉⁿᵗ , ᴮᵒᵗ ᴰᵉᵛᵉˡᵒᵖᵐᵉⁿᵗ,
-                            ᵂᵉᵇ ᴰᵉᵛᵉˡᵒᵖᵐᵉⁿᵗ. ᴬˡˢᵒ , ᴵ ʷᵒᵘˡᵈ ˡⁱᵏᵉ ᵗᵒ ᵍᵉᵗ ⁱⁿᵛᵒˡᵛᵉᵈ ⁱⁿ ᵃⁿʸ ᵏⁱⁿᵈ ᵒᶠ ᵖʳᵒʲᵉᶜᵗ ᵗʰᵃᵗ ⁱ ᶜᵒᵘˡᵈ ᵍᵉᵗ ⁱⁿᵗᵒ ᵐʸ ˢᵏⁱˡˡ ˢᵉᵗˢ.
-                            
-                </div>
-            </section>
 
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
 
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">My Skill Set</h2>
-                        <p class="skills__text">𝑴𝒚 𝒔𝒌𝒊𝒍𝒍𝒔 𝒔𝒆𝒕𝒔 𝒂𝒓𝒆 𝒃𝒂𝒔𝒆𝒅 𝒐𝒏 𝑷𝒚𝒕𝒉𝒐𝒏, 𝑯𝑻𝑴𝑳, 𝑪𝑺𝑺, 𝑱𝒂𝒗𝒂𝑺𝒄𝒓𝒊𝒑𝒕, 𝑮𝒂𝒎𝒆 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒎𝒆𝒏𝒕, 𝑩𝒐𝒕 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒎𝒆𝒏𝒕, 𝑭𝒓𝒐𝒏𝒕𝒆𝒏𝒅 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒎𝒆𝒏𝒕....
 
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML</span>
-                            </div>
-                            <div class="skills__bar skills__html">
 
-                            </div>
-                            <div>
-                                <span class="skills__percentage">74%</span>
-                            </div>
+
+
+        <!--==================== SKILLS =========================-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">My Skill Set</h2>
+                    <p class="skills__text">𝑴𝒚 𝒔𝒌𝒊𝒍𝒍𝒔 𝒔𝒆𝒕𝒔 𝒂𝒓𝒆 𝒃𝒂𝒔𝒆𝒅 𝒐𝒏 𝑷𝒚𝒕𝒉𝒐𝒏, 𝑯𝑻𝑴𝑳,
+                        𝑪𝑺𝑺, 𝑱𝒂𝒗𝒂𝑺𝒄𝒓𝒊𝒑𝒕, 𝑮𝒂𝒎𝒆 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒎𝒆𝒏𝒕, 𝑩𝒐𝒕 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒎𝒆𝒏𝒕,
+                        𝑭𝒓𝒐𝒏𝒕𝒆𝒏𝒅 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒎𝒆𝒏𝒕....
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML</span>
                         </div>
+                        <div class="skills__bar skills__html">
 
-			
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS</span>
-                            </div>
-                            <div class="skills__bar skills__cs">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
                         </div>
-
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JavaScript</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">37%</span>
-                            </div>
-                        </div>
-
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-code-alt skills__icon'></i>
-                                <span class="skills__name">Python</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">76%</span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-book skills__icon'></i>
-                                <span class="skills__name">Study</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">88%</span>
-                            </div>
+                        <div>
+                            <span class="skills__percentage">74%</span>
                         </div>
                     </div>
-                    
-                    <div>              
-                        <img src="assets/img/skills.png" alt="" class="skills__img">
+
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS</span>
+                        </div>
+                        <div class="skills__bar skills__cs">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JavaScript</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">37%</span>
+                        </div>
+                    </div>
+
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-code-alt skills__icon'></i>
+                            <span class="skills__name">Python</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">76%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-book skills__icon'></i>
+                            <span class="skills__name">Study</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">88%</span>
+                        </div>
                     </div>
                 </div>
-            </section>
 
-		    
-		    
-		    
-        <!--====Contact_Me======-->  
-        <section class="contact", id="contact">
+                <div>
+                    <img src="assets/img/skills.png" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--==================== Project ====================-->
+        <section class="project section" id="project">
+            <h2 class="section-title">Project</h2>
+
+
+            <!--heading-->
+            <div class="project-heading">
+                <span>Let's See My Work</span>
+
+            </div>
+
+
+            <!--filter-------------->
+            <ul class="project-filter">
+                <li class="list project-filter-active" data-filter="all">All</li>
+                <li class="list" data-filter="app">Application</li>
+                <li class="list" data-filter="design">App Design</li>
+                <li class="list" data-filter="web">Website Design</li>
+                <li class="list" data-filter="ai">AI</li>
+            </ul>
+
+            <!--container------------>
+            <div class="project-container">
+
+                <!--box-1--(about-app)----------->
+                <a href="images2/b-1.jpg" class="project-box app" data-lightbox="work">
+                    <img src="images2/b-1.jpg" alt="work">
+                </a>
+
+                <!--box-2---(about-website)---------->
+                <a href="images2/b-2.jpg" class="project-box web" data-lightbox="work">
+                    <img src="images2/b-2.jpg" alt="work">
+                </a>
+
+                <!--box-3--(about-ai)----------->
+                <a href="images2/b-3.jpg" class="project-box ai" data-lightbox="work">
+                    <img src="images2/b-3.jpg" alt="work">
+                </a>
+
+                <!--box-4---(about-design)---------->
+                <a href="images2/b-4.jpg" class="project-box design" data-lightbox="work">
+                    <img src="images2/b-4.jpg" alt="work">
+                </a>
+
+                <!--box-5---(about-design)---------->
+                <a href="images2/b-5.jpg" class="project-box design" data-lightbox="work">
+                    <img src="images2/b-5.jpg" alt="work">
+                </a>
+
+                <!--box-6---(about-app)---------->
+                <a href="images2/b-6.jpg" class="project-box app" data-lightbox="work">
+                    <img src="images2/b-6.jpg" alt="work">
+                </a>
+
+            </div>
+
+
+            <!--==Using JQuery=================================-->
+            <script src="js2/JQuery.js"></script>
+            <script src="js2/lightbox.min.js"></script>
+
+
+            <script type="text/javascript">
+
+                /*--for-filter-menu---------------------------------*/
+                $(document).on('click', '.project-filter li', function () {
+                    $(this).addClass('project-filter-active').siblings().removeClass('project-filter-active')
+                });
+
+                /*--for-project/work-filter-------------------------*/
+                $(document).ready(function () {
+                    $('.list').click(function () {
+                        const value = $(this).attr('data-filter');
+                        if (value == 'all') {
+                            $('.project-box').show('1000');
+                        }
+                        else {
+                            $('.project-box').not('.' + value).hide('1000');
+                            $('.project-box').filter('.' + value).show('1000');
+                        }
+                    });
+                });
+
+            </script>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <!--========================Contact_Me==========================-->
+        <section class="contact" , id="contact">
             <h2 class="section-title">Contact Me</h2>
-            
-		    <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/contact.png" alt="">
-                    </div>
-			    
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/contact.png" alt="">
+                </div>
+
                 <div class="contact__container bd-grid">
-                <p class="contact__text">𝒀𝒐𝒖 𝒄𝒂𝒏 𝒎𝒆𝒔𝒔𝒂𝒈𝒆 𝒎𝒆, 𝒇𝒓𝒐𝒎 𝒕𝒉𝒆 𝒃𝒐𝒕𝒕𝒐𝒎 𝒓𝒊𝒈𝒉𝒕 𝒊𝒄𝒐𝒏.<br>
-		                         𝑯𝒊𝒕 𝒕𝒉𝒂𝒕 𝒂𝒏𝒅 𝒇𝒆𝒆𝒍 𝒇𝒓𝒆𝒆 𝒕𝒐 𝒎𝒆𝒔𝒔𝒂𝒈𝒆 𝒎𝒆.<br>
-                                         𝑨𝒍𝒍 𝒎𝒚 𝑺𝒐𝒄𝒊𝒂𝒍𝒔 𝒂𝒓𝒆 𝒍𝒊𝒏𝒌𝒆𝒅 𝒃𝒆𝒍𝒐𝒘 𝒔𝒐 𝒚𝒐𝒖 𝒄𝒂𝒏 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒎𝒆 𝒂𝒏𝒚𝒕𝒊𝒎𝒆.😄 <br>
-                                         𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒎𝒆 𝒘𝒊𝒕𝒉 𝒏𝒐 𝒉𝒆𝒔𝒊𝒕𝒂𝒕𝒊𝒐𝒏...😎<br></p>	
-			
-        </div>
-    </section>
+                    <p class="contact__text">𝒀𝒐𝒖 𝒄𝒂𝒏 𝒎𝒆𝒔𝒔𝒂𝒈𝒆 𝒎𝒆, 𝒇𝒓𝒐𝒎 𝒕𝒉𝒆 𝒃𝒐𝒕𝒕𝒐𝒎 𝒓𝒊𝒈𝒉𝒕
+                        𝒊𝒄𝒐𝒏.<br>
+                        𝑯𝒊𝒕 𝒕𝒉𝒂𝒕 𝒂𝒏𝒅 𝒇𝒆𝒆𝒍 𝒇𝒓𝒆𝒆 𝒕𝒐 𝒎𝒆𝒔𝒔𝒂𝒈𝒆 𝒎𝒆.<br>
+                        𝑨𝒍𝒍 𝒎𝒚 𝑺𝒐𝒄𝒊𝒂𝒍𝒔 𝒂𝒓𝒆 𝒍𝒊𝒏𝒌𝒆𝒅 𝒃𝒆𝒍𝒐𝒘 𝒔𝒐 𝒚𝒐𝒖 𝒄𝒂𝒏 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒎𝒆
+                        𝒂𝒏𝒚𝒕𝒊𝒎𝒆.😄 <br>
+                        𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒎𝒆 𝒘𝒊𝒕𝒉 𝒏𝒐 𝒉𝒆𝒔𝒊𝒕𝒂𝒕𝒊𝒐𝒏...😎<br></p>
+
+                </div>
+        </section>
 
 
-        <!--===== FOOTER =====-->
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--========================= FOOTER =========================-->
         <footer class="footer">
-            
+
             <div class="footer__social">
-                <a href="https://mailto:Utkarshyadav8726@gmail.com" target="_blank" class="home__social-icon"><i class='bx bx-mail-send' ></i></a>
-                <a href="https://discordapp.com/users/924851347688398878" target="_blank" class="home__social-icon"><i class='bx bxl-discord' ></i></a>
-                <a href="https://github.com/uky222" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                <a href="https://snapchat.com/add/utkarsh-dnd" target="_blank" class="home__social-icon"><i class='bx bxl-snapchat' ></i></a>
-                <a href="https://youtube.com/c/BatchStudy" target="_blank" class="home__social-icon"><i class='bx bxl-youtube' ></i></a>
-		<a href="https://open.spotify.com/user/315j7sm42plqipjfsry6lbrj7bne" target="_blank" class="home__social-icon"><i class='bx bxl-spotify' ></i></a>
+                <a href="https://mailto:Utkarshyadav8726@gmail.com" target="_blank" class="home__social-icon"><i
+                        class='bx bx-mail-send'></i></a>
+                <a href="https://discordapp.com/users/924851347688398878" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-discord'></i></a>
+                <a href="https://github.com/uky222" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://snapchat.com/add/utkarsh-dnd" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-snapchat'></i></a>
+                <a href="https://youtube.com/c/BatchStudy" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-youtube'></i></a>
+                <a href="https://open.spotify.com/user/315j7sm42plqipjfsry6lbrj7bne" target="_blank"
+                    class="home__social-icon"><i class='bx bxl-spotify'></i></a>
             </div>
             <p>&#169; ᴍᴀᴅᴇ ᴡɪᴛʜ ♥ ʙʏ ᴜᴛᴋᴀʀꜱʜ<br>
-		ɢᴍᴀɪʟ- 𝙠𝙣𝙤𝙬@𝙮𝙖𝙙𝙖𝙫𝙪𝙩𝙠𝙖𝙧𝙨𝙝.𝙢𝙡</p>
+                ɢᴍᴀɪʟ- 𝙠𝙣𝙤𝙬@𝙮𝙖𝙙𝙖𝙫𝙪𝙩𝙠𝙖𝙧𝙨𝙝.𝙢𝙡</p>
         </footer>
 
 
@@ -250,6 +430,6 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
-    </body>
+</body>
 
 </html>
