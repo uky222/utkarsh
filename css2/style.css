@@ -64,7 +64,7 @@ body{
     margin: auto;
 }
 .project-box{
-    width:350px;
+    width:330px;
     padding: 15px;
     margin: 20px;
 }
@@ -74,8 +74,6 @@ body{
     overflow: hidden;
     border-radius: 5px;
 }
-
-
 @media(max-width:740px){
     .project-filter{
         background-color: #f9f9f9;
@@ -88,7 +86,6 @@ body{
     .project-box{
         width: 80%;
     }
-
 }
 @media(max-width:550px){
     .project-heading h3{
