@@ -6,7 +6,7 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colors =====*/
 :root{
   --first-color: #1577d3d7;
   --second-color: #000016;
@@ -257,6 +257,8 @@ img{
 }
 .nav__logo{
   color: #fff;
+  font-style: var(--big-font-size);
+  font-weight: bold;
 }
 .nav__toggle{
   color: #fff;
@@ -315,10 +317,12 @@ img{
   bottom: 0;
   width: 295px;
 }
-
 .home_Animation{
   
   color: #fff;
+  font-family:cursive;
+  font-stretch: condensed;
+  font-style:oblique;
   width: 0ch;
   overflow: hidden;
   white-space: nowrap;
@@ -351,6 +355,9 @@ img{
   width: 200px;
   border-radius: .5rem;
 }
+.about__text{
+  font-family: cursive;
+}
 
 /* ===== SKILLS =====*/
 .skills__container{
@@ -362,6 +369,8 @@ img{
 }
 .skills__text{
   margin-bottom: var(--mb-4);
+  font-family: cursive;
+  font-style: italic;
 }
 .skills__data{
   display: flex;
@@ -445,6 +454,15 @@ img{
   color: #fff;
   margin: 0 var(--mb-2)
 }
+.end{
+  font-family:cursive;
+  font-style: italic;
+}
+.final__end{
+  font-family:cursive;
+  font-style: italic;
+  font-size: small;
+}
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
@@ -500,6 +518,11 @@ img{
   .home__img{
     width: 457px;
     bottom: 15%;
+  }
+
+  .contact__text{
+    font-family: cursive;
+    font-style: italic;
   }
 
   .about__container, .skills__container{
