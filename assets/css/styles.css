@@ -370,7 +370,6 @@ img{
 .skills__text{
   margin-bottom: var(--mb-4);
   font-family: cursive;
-  font-style: italic;
 }
 .skills__data{
   display: flex;
@@ -455,8 +454,7 @@ img{
   margin: 0 var(--mb-2)
 }
 .end{
-  font-family:cursive;
-  font-style: italic;
+  font-family:Cambria;
 }
 .final__end{
   font-family:cursive;
@@ -522,7 +520,6 @@ img{
 
   .contact__text{
     font-family: cursive;
-    font-style: italic;
   }
 
   .about__container, .skills__container{
